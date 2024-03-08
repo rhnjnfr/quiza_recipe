@@ -1,0 +1,90 @@
+.recipe{
+    color: rgb(0, 0, 0);
+    background-color:  rgb(211, 169, 105);
+    margin: 0;
+    display: block;
+    width: 100%;
+    justify-content: center;
+    overflow: overlay; 
+}
+.recipe-container{
+    padding-top: 6.6rem; 
+    background-color:  rgb(211, 169, 105);
+}
+.recipe-container .content{
+    display: flex;
+    flex-direction: column;
+}
+.recipe-container .recipe-body{
+    display: flex;
+}
+.recipe-container .category-title{
+    margin: 1rem 15rem 1rem 15rem;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+}
+.recipe-content{
+    position: relative;
+    width: inherit;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 30px 30px 30px; 
+    background-color: #fffac4bc;
+    margin: 0px 15rem ;
+    border-radius: 10px 10px 0px 0px;
+}
+.recipe-content .card{
+    width: 308px;
+    position: inherit;
+    height: 390px;
+    background: #f0f0f0;
+    margin: 30px 10px;
+    padding: 30px 15px;
+    display: flex; 
+    flex-direction: column;
+    transition: 0.3s ease-in-out;
+    margin-top: 5%;
+    border-radius: 15px;
+}
+.recipe-content  .card .imgBox{
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: 0px;
+    left: 9px; 
+}
+.recipe-content  .card .imgBox img{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+.recipe-content  .card .imgBox img:hover{
+    transform: scale(1.1);
+    box-shadow:1px 1px 10px rgba(119, 119, 119, 0.848);
+}
+.recipe-content .card h4{
+    text-align: center;
+    margin: 25px 0;
+    padding: 0px;
+    font-size: 1.5rem;
+}
+.content button{
+    width: 30rem;
+    height: 5rem;
+    font-size: 2rem;
+    border-radius: 10px;
+    border-width: 1px;
+    /* background-color: inherit; */
+}
+.content .recipe-button{
+    border-radius: 0px 0px 10px 10px;
+}
+.content button:hover{
+    background-color: rgb(255, 243, 223);
+}
